@@ -29,7 +29,9 @@
 
 ### Credits:
   **Author** : 'Shiven'
+  
+ ### [Must Checkout 👇]
 - Youtube video helps me write *Quiz JavaScript* | https://youtu.be/SHdOWKqIeH0?si=LCwCxUZU_YWnvmeR
 - Youtube video helps me write *Confetti btn Javascript* | https://youtu.be/hq_tKbSzAiY?si=Fn4R45NGk3A1-BFC
-    [Must Checkout 👆]
+    
 
