@@ -1,9 +1,9 @@
 # Mini Quiz Site 💫
 
 ## Features 👇:
-- Hover effects
+- 5 Multiple choice questions
+- Interactive Ui with hover effect
 - Gradient Background (Modern Look)
-- Displays random quiz questions.
 - Provides multiple-choice options.
 - Includes a working confetti button for a celebratory effect.
 - Tracks progress (e.g., Question 1 of 5).
