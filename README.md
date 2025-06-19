@@ -7,6 +7,7 @@
 - Provides multiple-choice options.
 - Includes a working confetti button for a celebratory effect.
 - Tracks progress (e.g., Question 1 of 5).
+- Without timer for now (i will add timer soon)
 
 # 👨‍💻 How to Use
 - Step 1: Download the code as a Zip file
