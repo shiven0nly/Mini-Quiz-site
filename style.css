@@ -123,7 +123,7 @@ footer p {
   font-family: "Baloo 2", cursive;
 }
 
- /* Wrapper around the button */
+/* Wrapper around the button */
 .button-wrapper {
   position: relative;
   z-index: 1;
@@ -137,14 +137,13 @@ canvas {
   pointer-events: none;
 }
 
-
 /* Style for the button */
 .confetti-button {
   padding: 15px 30px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 700;
   background: #02bc94;
-  color:white;
+  color: white;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -168,8 +167,6 @@ canvas {
   transition: 0.4s ease-in-out;
 }
 
-
-
 .button-wrapper {
   position: relative;
   height: fit-content;
@@ -189,3 +186,136 @@ canvas {
   pointer-events: none;
 }
 
+/* footer section */
+#footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: #0f2027;
+  top: 25vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  list-style: none;
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.footer li {
+  flex-basis: 4rem;
+}
+
+.footer a:hover {
+  box-shadow: 0 0 10px rgb(86, 246, 7);
+}
+
+.footer a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  text-decoration: none;
+  font-size: 1.75rem;
+  color: #070707;
+  border: 1px solid;
+  border-radius: 100%;
+  outline: none;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+}
+
+.footer a > i {
+  position: relative;
+  z-index: 1;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer a::after {
+  position: absolute;
+  content: "";
+  inset: 100% 0 0;
+  background-color: #070707;
+  pointer-events: none;
+  transition: inset 0.4s ease-in-out;
+}
+
+.footer a:hover::after {
+  inset-block-start: 0;
+}
+
+
+.footer li {
+  flex-basis: 4rem;
+}
+
+.footer a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: #070707;
+  border: 2px solid #070707;
+  border-radius: 50%;
+  outline: none;
+  overflow: hidden;
+  background: #f7f7f7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: color 0.4s, border-color 0.4s, background 0.4s, box-shadow 0.4s;
+}
+
+.footer a > i {
+  position: relative;
+  z-index: 1;
+}
+
+.footer a:hover {
+  color: #fff;
+  border-color: #00b3ff;
+  background: #070707;
+  box-shadow: 0 0 16px #00b3ff, 0 0 32px #00b3ff33;
+  transform: scale(1.08);
+}
+
+.footer a::after {
+  position: absolute;
+  content: "";
+  inset: 100% 0 0;
+  background-color: #070707;
+  pointer-events: none;
+  transition: inset 0.4s;
+  z-index: 0;
+}
+
+.footer a:hover::after {
+  inset-block-start: 0;
+}
+
+/* rights */
+/* rights */
+.rights {
+  background: #0f2027;
+  color: azure;
+  position: relative;
+  top: 20vh;
+  left: 0;
+  z-index: 5;
+  font-size: 1.6rem;
+  width: fit-content;
+  font-family: "Inter";
+  margin: 2rem auto;
+}
