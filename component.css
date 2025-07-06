@@ -1,0 +1,158 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #000);
+}
+
+#opening {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  padding: 0;
+  margin: 0 auto;
+}
+
+#header h1 {
+  font-family: "Mulish";
+  font-size: 6rem;
+  font-weight: 800;
+  color: transparent;
+  background: linear-gradient(
+    to right,
+    rgb(198, 170, 15),
+    rgb(246, 249, 250),
+    rgb(255, 187, 0)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: 1px 3px 0px #de3c9867;
+}
+
+button {
+  font-size: 1.4em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
+}
+
+.button-wrapper {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10.5vw;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.button-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.button-wrapper:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.button-wrapper:active::before {
+  filter: blur(0.2em);
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  margin: 2rem;
+  font-family: "Baloo Bhai 2";
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: silver;
+  text-shadow: 1px 1px rgb(222, 94, 115), 0 0 5px rgba(220, 71, 96);
+}
+
+.circle1 {
+  height: 40vh;
+  background: linear-gradient(90deg, rgb(4, 250, 168), indigo);
+  border-radius: 50%;
+  filter: blur(100pc);
+  animation: 10s pulse infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.waiting{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+    display: none;
+}
+
+.bar1,.bar2, .bar3, .bar4{
+    background-color: beige;
+    height: 8vh;
+    border-radius: 10px;
+}
+
+.bar1 {
+    animation: wave 1s ease-in-out infinite;
+    animation-delay: 0s;
+}
+.bar2 {
+    animation: wave 1s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+.bar3 {
+    animation: wave 1s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+.bar4 {
+    animation: wave 1s ease-in-out infinite;
+    animation-delay: 0.6s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scaleY(1.8);
+        opacity: 0.7;
+    }
+}
