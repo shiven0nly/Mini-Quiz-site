@@ -1,5 +1,8 @@
 # Mini Quiz Site 💫
-*U can visit the site from here* : https://shiven0nly.github.io/Mini-Quiz-site/
+*U can visit the site from here* : https://mini-quiz-site.vercel.app/
+
+
+
 ## Features 👇:
 - 5 Multiple choice questions
 - Interactive Ui with hover effect
