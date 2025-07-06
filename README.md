@@ -4,6 +4,7 @@
 - 5 Multiple choice questions
 - Interactive Ui with hover effect
 - Gradient Background (Modern Look)
+- With Loading Animation
 - Provides multiple-choice options.
 - Includes a working confetti button for a celebratory effect.
 - Tracks progress (e.g., Question 1 of 5).
@@ -38,5 +39,6 @@
 # Screenshot 👇
 ![image](https://github.com/user-attachments/assets/e5c3bfbc-4759-4f98-b8c0-746e654228cd)
 
-    
+---
+![image](https://github.com/user-attachments/assets/fe76c2cf-2e81-4927-a9d2-52873983dd72)
 
