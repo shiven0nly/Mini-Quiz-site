@@ -192,7 +192,7 @@ canvas {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background: #0f2027;
+  background: linear-gradient(90deg,#0f2027 0%, #2c5364 100%);
   top: 25vh;
 }
 
@@ -306,16 +306,20 @@ canvas {
 }
 
 /* rights */
-/* rights */
 .rights {
   background: #0f2027;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  background: transparent;
+  font-weight: 600;
+  text-shadow: 1px 1px 6px #000a;
   color: azure;
   position: relative;
-  top: 20vh;
+  top: 3vh;
   left: 0;
   z-index: 5;
   font-size: 1.6rem;
-  width: fit-content;
   font-family: "Inter";
   margin: 2rem auto;
 }
