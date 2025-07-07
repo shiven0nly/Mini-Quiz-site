@@ -1,3 +1,25 @@
+// DarkMode Toggle:
+const toggleBtn = document.getElementById("toggleTheme");
+
+// Set initial theme to light mode by default
+document.body.classList.add("light-mode");
+document.body.classList.remove("dark-mode");
+toggleBtn.textContent = "🌙 Dark Mode";
+
+toggleBtn.addEventListener("click", () => {
+  if (document.body.classList.contains("light-mode")) {
+    document.body.classList.remove("light-mode");
+    document.body.classList.add("dark-mode");
+    toggleBtn.textContent = "☀️ Light Mode";
+  } 
+  else {
+    document.body.classList.remove("dark-mode");
+    document.body.classList.add("light-mode");
+    toggleBtn.textContent = "🌙 Dark Mode";
+  }
+});
+
+// QUiZ JS:
 function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
